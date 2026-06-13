@@ -1,0 +1,194 @@
+#titulo {
+    font-size: 24px;
+    font-weight: 500;
+    color: #1B1B1B;
+    font-family: "Inter" , sans-serif;
+    line-height: 100%;
+    text-align: left;
+    margin-left: -6px;
+}
+
+#subtitulo {
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797CC;
+    font-family: "Inter" , sans-serif;
+    padding-left: 24px;
+    padding-right: 32px;
+    margin-left: -6px;
+    margin-top: 8px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 325px;
+    height: 60px;
+    margin-top: 27px;
+    margin-left: 15px;
+    justify-content: flex-start;
+
+}
+
+.titulo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 24px;
+    padding-right: 32px;
+}
+
+#menu {
+   width: 24px;
+   position: relative;
+}
+
+p {
+    margin: 0;
+}
+
+.box-lupa {
+    width: 48px;
+    height: 48px;
+    background-color: #F9F9FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+
+#pesquisa {
+    font-family: "Inter" , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #979797;
+    margin-left: -10px;
+}
+
+#lupa {
+    width: 24px;
+    height: 24px;
+}
+
+header {
+    background-color: #F9F9FB;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#card {
+    margin: 25px auto 24px auto;
+    width: 378px;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.card {
+width: 178px;
+height: 178px;
+left: 24px;
+border-radius: 8px;
+position: relative;
+background-color: #FFFFFF;
+overflow: hidden;
+}
+
+#card-top {
+background-color: #FFF9F2;
+width: 178px;
+height: 89px;
+}
+
+.card-img {
+width: 106px;
+height: 120px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 0;
+}
+
+#legenda {
+font-size: 8px;
+font-weight: 500;
+font-family: "Inter" , sans-serif;
+margin-left: 13px;
+margin-top: 20px;
+color: #1B1B1B;
+}
+
+#nome-burger {
+font-size: 18px;
+font-weight: 700;
+font-family: "Inter" , sans-serif;
+margin-left: 13px;
+margin-top: 3px;
+color: #1B1B1B;
+}
+
+#preço {
+font-size: 15px;
+font-weight: 800;
+font-family: "Inter" , sans-serif;
+margin-left: 13px;
+margin-top: 3px;
+color: #FB9400;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 178px);
+    gap: 24px;
+}
+
+#burger2 {
+width: 119px;
+height: 119px;
+}
+
+#burger3 {
+width: 141px;
+height: 118px;
+}
+
+#burger4 {
+width: 115px;
+height: 115px;
+}
+
+#burger5 {
+width: 119px;
+height: 119px;
+}
+
+#burger6 {
+width: 106px;
+height: 120px;
+}
+
+@media (max-width: 400px) {
+    .card {
+        left: 9px;
+         width: 170px;
+    }
+}
+
+@media (max-width: 400px) {
+    #card {
+        width: 360px;
+    }
+}
